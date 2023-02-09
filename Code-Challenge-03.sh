@@ -9,8 +9,14 @@
 # Main
 
 
-last jordan
+last 
 
+var="this is the user history"
 
+my-func () {
+    echo $var
+}
+
+my-func
 
 # End
