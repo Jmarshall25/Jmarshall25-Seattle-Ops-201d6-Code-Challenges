@@ -1,4 +1,11 @@
- Get-Process | Sort-Object -Descending CPU | Format-Table -AutoSize Name, CPU
+# Script: Ops 201 Class 10 Ops Challenge
+# Author: Jordan Marshall
+# Date: 25Feb23
+
+
+# Main
+
+Get-Process | Sort-Object -Descending CPU | Format-Table -AutoSize Name, CPU
 
 Get-Process | Sort-Object -Descending Id | Format-Table -AutoSize Name, Id
 
@@ -12,3 +19,6 @@ Start-Process iexplore.exe "https://owasp.org/www-project-top-ten/"
  } 
 
  Get-Process "iexplore" | Stop-Process -Force 
+
+
+# End
